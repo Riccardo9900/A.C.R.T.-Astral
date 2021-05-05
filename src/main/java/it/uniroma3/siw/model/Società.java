@@ -14,7 +14,7 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
 @Entity
-@Table(uniqueConstraints = @UniqueConstraint(columnNames = {"nome", "anno", "città"}))
+@Table(uniqueConstraints = @UniqueConstraint(columnNames = {"nome", "anno", "citta"}))
 public class Società {
 
 	@Id
